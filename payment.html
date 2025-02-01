@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+</head>
+<body bgcolor="#f0f8ff" text="#333"> <!-- Updated background color to match login page style -->
+
+    <br>
+    <h1 align="center" style="color: #004080; font-family: Arial, sans-serif;">Payment</h1>
+
+    <p align="center">
+        <a href="index.html" style="color: #004080; font-size: 18px; text-decoration: none; font-weight: bold;">Home</a> &nbsp;&nbsp;
+        <a href="login.html" style="color: #004080; font-size: 18px; text-decoration: none; font-weight: bold;">Login</a> &nbsp;&nbsp;
+        <a href="register.html" style="color: #004080; font-size: 18px; text-decoration: none; font-weight: bold;">Register</a> &nbsp;&nbsp;
+        <a href="catalog.html" style="color: #004080; font-size: 18px; text-decoration: none; font-weight: bold;">Books Catalog</a> &nbsp;&nbsp;
+        <a href="cart.html" style="color: #004080; font-size: 18px; text-decoration: none; font-weight: bold;">Shopping Cart</a>
+    </p>
+    <br>
+
+    <p align="center">
+        <form method="post" action="confirmation.html">
+            <table align="center" bgcolor="white" cellpadding="10" style="border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+                <tr>
+                    <td><b>Card Name:</b></td>
+                    <td><input type="text" name="card_name" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+                <tr>
+                    <td><b>Card Type:</b></td>
+                    <td><input type="text" name="card_type" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+                <tr>
+                    <td><b>Card Number:</b></td>
+                    <td><input type="text" name="card" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+                <tr>
+                    <td><b>Expiry Date:</b></td>
+                    <td><input type="text" name="expiry" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+                <tr>
+                    <td><b>CVV:</b></td>
+                    <td><input type="text" name="cvv" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+                <tr>
+                    <td><b>Card Holder Address:</b></td>
+                    <td><input type="text" name="cardHolder_address" style="padding: 8px; width: 200px; border: 1px solid #bdc3c7;"></td>
+                </tr>
+            </table>
+
+            <p align="center">
+                <input type="submit" value="Pay Now" style="background-color: #f1c40f; color: #34495e; padding: 10px 20px; font-size: 16px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer;">
+            </p>
+        </form>
+    </p>
+</body>
+</html>
